@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cat <<EOF >README.md
-# Face Detection Project
+echo "# Face Detection Project" > README.md
 
+cat <<EOF >> README.md
 This project is a simple face detection application using OpenCV in Python. It captures video from a camera, detects faces in each frame, and attempts to recognize them using LBPH Face Recognizer.
 
 ## Installation
